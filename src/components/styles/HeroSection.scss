@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+.random {
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-container {
+  background: url(../../bg.jpg) center center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  & > h1 {
+    color: #fff;
+    font-size: 70px;
+    letter-spacing: 1rem;
+    font-weight: 700;
+    padding: 0;
+  }
+  & > p {
+    padding-bottom: 7rem;
+    margin-top: 20px;
+    color: #ffff00;
+    font-size: 37px;
+    font-weight: 900;
+    text-align: center;
+    font-family: "Architects Daughter", cursive;
+  }
+  &img {
+    width: 5rem;
+    position: sticky;
+  }
+  &img:hover {
+    transform: scaleX(1.5);
+    transform: rotate(90deg);
+    transition: all 0.25s ease-in;
+  }
+}
+@media screen and (max-width: 960px) {
+  .hero-container > h1 {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container {
+    & > h1 {
+      font-size: 50px;
+    }
+    & > p {
+      font-size: 30px;
+    }
+  }
+}
