@@ -19,7 +19,6 @@ function About() {
                     <br />
                     since you are here, check out my projects I have been working on. If you would like to collaborate, please drop me a message.
                     <br />
-
                     ...and lets keep coding.
                 </p>
                 <div className="about_social_wrapper">
