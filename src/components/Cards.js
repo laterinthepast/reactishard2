@@ -19,7 +19,7 @@ function Cards() {
                             path="https://mellerdramatic.com"
                             pathgithub="https://github.com/laterinthepast/bry-react"
                         />
-                        <CardItem
+                        {/* <CardItem
                             src="/images/marta.png"
                             text="under construction..."
                             label="HTML, CSS and Bootstrap"
@@ -32,7 +32,7 @@ function Cards() {
                             label="Website under construction - online shop"
                             path="https://herbaroom.net/"
                             pathgithub="https://herbaroom.net/"
-                        />
+                        /> */}
                         
                     </ul>
                     <ul>
