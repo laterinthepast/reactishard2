@@ -19,13 +19,13 @@ function Cards() {
                             path="https://mellerdramatic.com"
                             pathgithub="https://github.com/laterinthepast/bry-react"
                         />
-                        {/* <CardItem
-                            src="/images/roztocze.png"
-                            text="DESIGN, BUILD - not published yet"
-                            label="HTML, CSS, JS and Bootstrap"
-                            path="https://gallant-hamilton-d633a7.netlify.app/"
-                            pathgithub="https://github.com/laterinthepast/roztocze2"
-                        /> */}
+                         <CardItem
+                            src="/images/eu.jpg"
+                            text="DESIGN, BUILD - not published yet, awaiting client changes"
+                            label="Simple React Website"
+                            path="https://cocky-northcutt-9c570f.netlify.app/"
+                            pathgithub="https://github.com/laterinthepast/quartz-website"
+                        /> 
                         {/*
                         <CardItem
                             src="/images/herba.png"
