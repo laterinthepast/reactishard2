@@ -16,7 +16,7 @@ function Cards() {
                             src="/images/bry.png"
                             text="Bry is a talented tattoo artist based in Chippenham, UK. Follow the links below for source code and live website - React Project"
                             label="DESIGN, BUILD AND MANAGEMENT OF MELLERDRAMATIC.COM "
-                            path="https://mellerdramatic.com"
+                            path="https://mellerdramatic.netlify.app"
                             pathgithub="https://github.com/laterinthepast/bry-react"
                         />
                          <CardItem
