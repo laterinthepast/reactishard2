@@ -37,8 +37,8 @@ function Cards() {
                         <CardItem
                             src="/images/welcome.jpg"
                             text="Design, build and management of the website. Na ha ku is a company selling crafts online. Future project development will include setting up online ecommerce platform - React, styled components... work in progress "
-                            label="Simple React Website"
-                            path="https://cocky-northcutt-9c570f.netlify.app/"
+                            label="Design, Build and Management"
+                            path="https://agitated-pare-e17700.netlify.app"
                             pathgithub="https://github.com/laterinthepast/quartz-website"
                         />
 
