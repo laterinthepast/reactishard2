@@ -1,0 +1,116 @@
+.about_section {
+  padding: 0rem;
+  background: #403a84;
+  background: -webkit-gradient(linear, left top, right top, from(#403a84), color-stop(22%, #5b3384), color-stop(48%, #7d2984), color-stop(74%, #992184), to(#b41984));
+  background: linear-gradient(90deg, #403a84 0%, #5b3384 22%, #7d2984 48%, #992184 74%, #b41984 100%);
+}
+
+.about_section_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 100vw;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.about_section_wrapper img {
+  width: 100%;
+}
+
+.about_section_header {
+  padding: 0 2rem 2rem 2rem;
+}
+
+.about_section_img img {
+  width: 40rem;
+  padding: 1rem;
+  -webkit-filter: drop-shadow(0 0 0.3rem #000);
+          filter: drop-shadow(0 0 0.3rem #000);
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.about_section_text {
+  text-align: center;
+  line-height: 2rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0px;
+  padding-bottom: 2rem;
+}
+
+h1 {
+  padding: 3rem;
+  font-size: 3rem;
+}
+
+.about_social {
+  color: #000;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.about_social_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 10rem;
+  text-align: center;
+}
+
+.about_sociali:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: all 0.22s ease-out;
+  transition: all 0.22s ease-out;
+}
+
+@media only screen and (max-width: 1024px) {
+  .about_section_img img {
+    width: 30rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  h1 {
+    padding: 3rem;
+  }
+  .about_section {
+    padding: 1rem;
+  }
+  .about_section_text {
+    padding: 0.1rem;
+    font-size: 1rem;
+  }
+  .about_section_img img {
+    width: 20rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .about_section_img img {
+    width: 16rem;
+  }
+}

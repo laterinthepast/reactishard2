@@ -1,0 +1,202 @@
+.cards {
+  padding: 0rem;
+  background: #403a84;
+  background: -webkit-gradient(linear, left top, right top, from(#403a84), color-stop(22%, #5b3384), color-stop(48%, #7d2984), color-stop(74%, #992184), to(#b41984));
+  background: linear-gradient(90deg, #403a84 0%, #5b3384 22%, #7d2984 48%, #992184 74%, #b41984 100%);
+}
+
+.cards h1 {
+  text-align: center;
+  letter-spacing: 0.3rem;
+  font-size: 3rem;
+  padding: 0;
+}
+
+.cards__container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.cards__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 60vh;
+  padding: 5rem;
+}
+
+.cards__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cards__item__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  -webkit-box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+          box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.cards__item__pic-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.cards__item__pic-wrap::after {
+  content: attr(data-category);
+  position: absolute;
+  bottom: 0;
+  margin-left: 10px;
+  padding: 6px 8px;
+  max-width: calc((100%) - 60px);
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #1f98f4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cards__item__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+
+.cards__item__img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.cards__item__info {
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.cards_item__text {
+  color: black;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.cards__links__icon {
+  font-size: 2rem;
+  color: black;
+  padding: 2rem;
+}
+
+.cards__links__icon:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: all 0.22s ease-out;
+  transition: all 0.22s ease-out;
+}
+
+.divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.divider img {
+  padding-bottom: 3rem;
+}
+
+.dots_title {
+  color: #fff000;
+}
+
+@media only screen and (min-width: 1200px) {
+  .content__blog__container {
+    width: 84%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .cards__item {
+    margin-bottom: 0rem;
+    padding: 2rem;
+    height: 100vh;
+  }
+  .cards__item__link {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  h1 {
+    letter-spacing: 1rem;
+    font-size: 2rem;
+  }
+  .cards {
+    padding: 0;
+  }
+  .cards_item__text {
+    font-size: 11px;
+    line-height: 24px;
+  }
+  .cards__links__icon {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  .cards__items {
+    margin-bottom: 24px;
+    padding: 2rem 0;
+  }
+  .cards__item__info {
+    padding: 5px 10px;
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+    letter-spacing: 0.4rem;
+    font-size: 2.5rem;
+  }
+}

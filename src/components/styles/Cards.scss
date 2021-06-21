@@ -1,5 +1,6 @@
 .cards {
   padding: 0rem;
+
   background: rgb(64, 58, 132);
   background: linear-gradient(
     90deg,
@@ -16,32 +17,28 @@
     padding: 0;
   }
   &__container {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    max-width: 1120px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
   &__wrapper {
-    position: relative;
-    margin: 50px 0 45px;
   }
   &__item {
     display: flex;
-    flex: 1;
-    margin: 0 1rem;
-    border-radius: 10px;
+    justify-content: center;
+    height: 60vh;
+    padding: 5rem;
   }
   &__items {
-    margin-bottom: 24px;
-    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   &__item__link {
     display: flex;
-    flex-flow: column;
-    width: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
@@ -52,8 +49,9 @@
 
   &__item__pic-wrap {
     position: relative;
+  
     width: 100%;
-    padding-top: 67%;
+    height: 100%;
     overflow: hidden;
   }
 
@@ -85,6 +83,7 @@
     object-fit: cover;
     transition: all 0.2s linear;
     cursor: pointer;
+    
   }
   &__item__img:hover {
     transform: scale(1.1);
@@ -95,8 +94,9 @@
   }
   &_item__text {
     color: black;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 24px;
+    
   }
   &__links__icon {
     font-size: 2rem;
@@ -108,8 +108,14 @@
     transition: all 0.22s ease-out;
   }
 }
-.divider img {
-  padding-bottom: 3rem;
+.divider {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  img {
+    padding-bottom: 3rem;
+    
+  }
 }
 
 .dots_title {
@@ -124,13 +130,18 @@
 
 @media only screen and (min-width: 1024px) {
   .cards__items {
-    display: flex;
   }
 }
 
 @media only screen and (max-width: 1024px) {
   .cards__item {
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
+    padding: 2rem;
+    height: 100vh;
+
+    &__link {
+      flex-direction: column;
+    }
   }
 }
 
@@ -143,7 +154,7 @@
   .cards {
     padding: 0;
     &_item__text {
-      font-size: 12px;
+      font-size: 11px;
       line-height: 24px;
     }
     &__links__icon {

@@ -22,8 +22,10 @@ function CardItem(props) {
                             
                         
                     </div>
+                    
 
                 </div>
+                
             </li>
         </>
     )
